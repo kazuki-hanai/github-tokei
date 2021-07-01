@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "github-tokei"
+version = "0.1.0"
+description = ""
+authors = ["wan-nyan-wan <distributed.system.love@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyterlab = "^3.0.16"
+pandas = "^1.2.5"
+beautifulsoup4 = "^4.9.3"
+matplotlib = "^3.4.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
